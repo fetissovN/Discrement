@@ -2,48 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7f1d906-f902-4463-a365-80a109c36bf0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.jms.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.resource.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/servlet-api-2.5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Discrement_war_exploded/WEB-INF/classes/com/nick/java/Formulas.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Discrement_war_exploded/WEB-INF/classes/com/nick/java/servlets/InputDataServlet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Discrement_war_exploded/WEB-INF/classes/com/nick/java/utils/MessagesUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Discrement_war_exploded/WEB-INF/classes/com/nick/java/utils/StringUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Discrement/com/nick/java/Formulas.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Discrement/com/nick/java/servlets/InputDataServlet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Discrement/com/nick/java/utils/MessagesUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Discrement/com/nick/java/utils/StringUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Discrement_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javax_servlet_servlet_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Discrement.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Discrement_war_exploded/WEB-INF/css/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Discrement_war_exploded/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Discrement_war_exploded/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/Discrement_war_exploded/result.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/nick/java/Formulas.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/nick/java/servlets/InputDataServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/nick/java/utils/MessagesUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/nick/java/utils/StringUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/css/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/result.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/Discrement_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/javax_servlet_servlet_api_2_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Discrement.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/javax.annotation.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/javax.ejb.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/javax.jms.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/javax.persistence.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/javax.resource.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/javax.servlet.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/javax.transaction.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/servlet-api-2.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Discrement_war_exploded/WEB-INF/classes/com/nick/java/Formulas.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Discrement_war_exploded/WEB-INF/classes/com/nick/java/servlets/InputDataServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Discrement_war_exploded/WEB-INF/classes/com/nick/java/utils/MessagesUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Discrement_war_exploded/WEB-INF/classes/com/nick/java/utils/StringUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Discrement/com/nick/java/Formulas.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Discrement/com/nick/java/servlets/InputDataServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Discrement/com/nick/java/utils/MessagesUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Discrement/com/nick/java/utils/StringUtils.class" afterPath="" />
     </list>
     <ignored path="Discrement.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,8 +77,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="153">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -917,6 +904,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c7f1d906-f902-4463-a365-80a109c36bf0" name="Default" comment="" />
@@ -925,12 +915,12 @@
       <option name="presentableId" value="Default" />
       <updated>1491056177728</updated>
       <workItem from="1491056183459" duration="5608000" />
-      <workItem from="1491119812338" duration="12279000" />
+      <workItem from="1491119812338" duration="13081000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17887000" />
+    <option name="totallyTimeSpent" value="18689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
@@ -1103,8 +1093,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
