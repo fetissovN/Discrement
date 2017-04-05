@@ -10,6 +10,7 @@
 <head>
     <title>Result</title>
     <link rel="stylesheet" type="text/css" href="WEB-INF/css/app.css">
+    <%--<script type="text/javascript" src="/WEB-INF/js/ajax.js"></script>--%>
 </head>
 <body>
     <div>

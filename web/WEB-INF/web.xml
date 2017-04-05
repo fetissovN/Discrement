@@ -17,12 +17,12 @@
         <url-pattern>/data</url-pattern>
     </servlet-mapping>
 
-    <!--<servlet>-->
-        <!--<servlet-name>InputDataServlet</servlet-name>-->
-        <!--<servlet-class>com.nick.java.servlets.InputDataServlet</servlet-class>-->
-    <!--</servlet>-->
-    <!--<servlet-mapping>-->
-        <!--<servlet-name>InputDataServlet</servlet-name>-->
-        <!--<url-pattern>/data</url-pattern>-->
-    <!--</servlet-mapping>-->
+    <servlet>
+        <servlet-name>ValidationServlet</servlet-name>
+        <servlet-class>com.nick.java.servlets.ValidationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ValidationServlet</servlet-name>
+        <url-pattern>/validation</url-pattern>
+    </servlet-mapping>
 </web-app>

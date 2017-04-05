@@ -3,11 +3,28 @@ package com.nick.java.servlets;
 import com.nick.java.Formulas;
 import com.nick.java.utils.MessagesUtils;
 import com.nick.java.utils.StringUtils;
+import com.sun.deploy.net.HttpRequest;
 
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
 
 public class InputDataServlet extends javax.servlet.http.HttpServlet {
+
+    private static void checkArg(String peram, HttpServletRequest request, HttpServletResponse response){
+        String arg = request.getParameter(peram);
+        if (StringUtils.isBlank(arg)){
+            request.setAttribute(peram+"Err", MessagesUtils.ERROR_EMPTY);
+            try {
+                request.getRequestDispatcher("result.jsp").forward(request,response);
+            } catch (ServletException | IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
@@ -15,19 +32,10 @@ public class InputDataServlet extends javax.servlet.http.HttpServlet {
         String b = request.getParameter(StringUtils.B);
         String c = request.getParameter(StringUtils.C);
 
-        System.out.println(request.getRequestURI());
-        if (StringUtils.isBlank(a)){
-            request.setAttribute("aErr", MessagesUtils.ERROR_EMPTY);
-            request.getRequestDispatcher("result.jsp").forward(request,response);
-        }
-        if (StringUtils.isBlank(b)){
-            request.setAttribute("bErr", MessagesUtils.ERROR_EMPTY);
-            request.getRequestDispatcher("result.jsp").forward(request,response);
-        }
-        if (StringUtils.isBlank(c)){
-            request.setAttribute("cErr", MessagesUtils.ERROR_EMPTY);
-            request.getRequestDispatcher("result.jsp").forward(request,response);
-        }
+//        System.out.println(request.getRequestURI());
+        checkArg(StringUtils.A, request, response);
+        checkArg(StringUtils.B, request, response);
+        checkArg(StringUtils.C, request, response);
 
         try {
 
@@ -66,9 +74,6 @@ public class InputDataServlet extends javax.servlet.http.HttpServlet {
             request.setAttribute("letterErr", MessagesUtils.ERROR_LETTER);
             request.getRequestDispatcher("result.jsp").forward(request,response);
         }
-
-
-
     }
 
     protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
